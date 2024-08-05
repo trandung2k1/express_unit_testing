@@ -23,6 +23,7 @@ if (process.env.NODE_ENV === 'test') {
 const closeServer = () => {
     if (server) {
         server.close();
+        console.log('Server closed successfully');
     } else {
         console.log(colors.red('Server is not running'));
     }

@@ -11,8 +11,8 @@ describe('Unit testing', () => {
     });
 
     afterAll(() => {
-        disconnectDB();
         closeServer();
+        disconnectDB();
     });
 
     describe('GET /', () => {

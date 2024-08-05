@@ -10,7 +10,8 @@
         "prettier": "prettier --check .",
         "prettier:fix": "prettier --write .",
         "fm": "prettier --single-quote --trailing-comma none --tab-width 4 --write src/**/*.{js,json,jsx,css,scss,ts,tsx} __test__/**/*.{js,json,jsx,css,scss,ts,tsx}",
-        "test": "cross-env NODE_ENV=test jest"
+        "test": "cross-env NODE_ENV=test jest",
+        "test:coverage": "cross-env NODE_ENV=test jest --coverage --verbose"
     },
     "keywords": [],
     "author": "",
